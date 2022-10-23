@@ -17,13 +17,11 @@ body {
 .slider-container{
   max-width: 1120px;
   width: 100%;
-  background-color: grey;
   padding: 40px 0;
 }
 .slider-content {
   overflow: hidden;
   border-radius: 25px;
-  background-color: red;
   margin: 0 40px;
 }
 .card {
@@ -128,4 +126,12 @@ body {
 }
 .swiper-pagination.bullet-active{
  background-color: #4070f4;
+}
+@media screen and (max-width:768px) {
+  .slider-content{
+    margin: 0 10px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
 }
